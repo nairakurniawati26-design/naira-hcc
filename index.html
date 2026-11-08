@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio mahasiswa Manajemen Ritel Universitas Teknologi Digital Indonesia.">
+  <meta name="theme-color" content="#14213d">
+  <title>Portofolio | [Nama Lengkap]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">[Nama<span>.</span>]</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Tentang</a><a href="#skills">Keahlian</a><a href="#projects">Proyek</a>
+        <a href="#experience">Pengalaman</a><a href="#insights">Insight</a><a href="#contact" class="nav-cta">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">PORTOFOLIO MAHASISWA · MANAJEMEN RITEL</p>
+          <h1>Halo, saya <span>[Nama Lengkap]</span>.</h1>
+          <h2>Mahasiswa Manajemen Ritel<br>Universitas Teknologi Digital Indonesia</h2>
+          <p class="lead">Saya tertarik pada pengelolaan bisnis ritel, pelayanan pelanggan, strategi pemasaran, dan pemanfaatan teknologi untuk mendukung keputusan bisnis.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Lihat Proyek Saya <span>↗</span></a>
+            <a class="button secondary" href="assets/CV-Nama-Anda.pdf" download>Unduh CV ↓</a>
+          </div>
+          <div class="quick-facts">
+            <div><strong>Program Studi</strong><span>Manajemen Ritel</span></div>
+            <div><strong>Institusi</strong><span>Universitas Teknologi Digital Indonesia</span></div>
+            <div><strong>Status</strong><span>Mahasiswa</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-placeholder"><span>FOTO<br>PROFIL</span></div>
+          <div class="floating-card"><span class="dot"></span> Terbuka untuk kesempatan belajar & kolaborasi</div>
+          <div class="circle circle-one"></div><div class="circle circle-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container two-col">
+        <div><p class="eyebrow">01 / TENTANG SAYA</p><h2 class="section-title">Mengenal saya lebih dekat.</h2></div>
+        <div class="prose">
+          <p>Perkenalkan, saya <strong>[Nama Lengkap]</strong>, mahasiswa program studi Manajemen Ritel di Universitas Teknologi Digital Indonesia. Saya tertarik mempelajari bagaimana bisnis ritel dijalankan, mulai dari pengelolaan operasional toko, penataan produk, pelayanan pelanggan, strategi promosi, hingga analisis perilaku konsumen.</p>
+          <p>Saya percaya bahwa bisnis ritel yang baik tidak hanya berfokus pada penjualan, tetapi juga pada pengalaman pelanggan, efisiensi operasional, dan kemampuan beradaptasi terhadap perubahan pasar. Melalui perkuliahan, proyek, dan pembelajaran mandiri, saya terus mengembangkan kemampuan analisis, komunikasi, dan pemecahan masalah.</p>
+          <div class="profile-tags"><span>Retail Operations</span><span>Customer Experience</span><span>Retail Marketing</span><span>Business Analysis</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">02 / KOMPETENSI</p><h2 class="section-title">Keahlian yang terus saya kembangkan.</h2>
+        <p class="section-intro">Sesuaikan tingkat kemampuan dan isi bagian ini berdasarkan pengalaman nyata Anda.</p>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="icon-box">▣</div><h3>Manajemen Ritel</h3><ul><li>Retail Operations</li><li>Customer Service</li><li>Visual Merchandising</li><li>Inventory Management</li><li>Retail Marketing</li></ul></article>
+          <article class="skill-card"><div class="icon-box">⌘</div><h3>Digital & Analitis</h3><ul><li>Microsoft Excel / Google Sheets</li><li>PowerPoint / Google Slides</li><li>Canva</li><li>Analisis data sederhana</li><li>Media sosial / marketplace</li></ul></article>
+          <article class="skill-card"><div class="icon-box">✳</div><h3>Soft Skills</h3><ul><li>Komunikasi</li><li>Kerja sama tim</li><li>Manajemen waktu</li><li>Berpikir kritis</li><li>Ketelitian dan adaptasi</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">03 / KARYA PILIHAN</p><h2 class="section-title">Proyek dan studi kasus.</h2>
+        <p class="section-intro">Tampilkan tugas kuliah, studi kasus, simulasi, atau proyek mandiri. Beri label simulasi jika menggunakan data contoh.</p>
+        <div class="project-toolbar">
+          <div class="filters" id="projectFilters" aria-label="Filter proyek">
+            <button class="filter active" data-filter="all">Semua</button>
+            <button class="filter" data-filter="operasional">Operasional</button>
+            <button class="filter" data-filter="pemasaran">Pemasaran</button>
+            <button class="filter" data-filter="analisis">Analisis</button>
+          </div>
+          <input id="projectSearch" class="search" type="search" placeholder="Cari proyek..." aria-label="Cari proyek">
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card" data-category="analisis" data-title="Dashboard Persediaan Produk">
+            <div class="project-art art-blue"><span>DATA & INVENTORY</span><b>01</b></div>
+            <div class="project-body"><span class="category">ANALISIS · SIMULASI</span><h3>Dashboard Persediaan Produk Toko</h3><p>Simulasi pencatatan stok awal, barang masuk, barang keluar, dan stok akhir menggunakan spreadsheet.</p><button class="text-button detail-button" data-project="inventory">Lihat detail →</button></div>
+          </article>
+          <article class="project-card" data-category="pemasaran" data-title="Rencana Promosi UMKM">
+            <div class="project-art art-orange"><span>RETAIL MARKETING</span><b>02</b></div>
+            <div class="project-body"><span class="category">PEMASARAN · TEMPLATE</span><h3>Rencana Promosi untuk UMKM</h3><p>Rancangan target pelanggan, tujuan promosi, ide konten, dan indikator evaluasi kampanye.</p><button class="text-button detail-button" data-project="promotion">Lihat detail →</button></div>
+          </article>
+          <article class="project-card" data-category="operasional" data-title="Analisis Pengalaman Pelanggan">
+            <div class="project-art art-green"><span>CUSTOMER EXPERIENCE</span><b>03</b></div>
+            <div class="project-body"><span class="category">OPERASIONAL · STUDI KASUS</span><h3>Analisis Pengalaman Pelanggan</h3><p>Pengamatan perjalanan pelanggan dan rekomendasi untuk meningkatkan pengalaman berbelanja.</p><button class="text-button detail-button" data-project="customer">Lihat detail →</button></div>
+          </article>
+        </div>
+        <p class="note">Catatan: ketiga kartu di atas adalah contoh struktur konten. Ganti dengan proyek yang benar-benar Anda kerjakan sebelum dipublikasikan.</p>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container two-col">
+        <div><p class="eyebrow">04 / PERJALANAN</p><h2 class="section-title">Pendidikan & pengalaman.</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-date">[Tahun masuk] — Sekarang</span><h3>Universitas Teknologi Digital Indonesia</h3><p>Mahasiswa Program Studi Manajemen Ritel.</p><p class="muted">Fokus pembelajaran: manajemen ritel, pemasaran, operasional, dan perilaku konsumen.</p></article>
+          <article class="timeline-item"><span class="timeline-date">[Periode kegiatan]</span><h3>[Organisasi / Kepanitiaan / Pengalaman]</h3><p>[Jelaskan jabatan, tanggung jawab, kontribusi, dan hasil yang dapat dibuktikan.]</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="insights">
+      <div class="container">
+        <p class="eyebrow">05 / RETAIL INSIGHT</p><h2 class="section-title">Catatan tentang dunia ritel.</h2>
+        <div class="insight-grid">
+          <article class="insight-card"><span>TOPIK 01</span><h3>Mengapa pengalaman pelanggan penting dalam bisnis ritel?</h3><p>Bahas bagaimana kemudahan, pelayanan, dan kenyamanan dapat memengaruhi pengalaman belanja.</p></article>
+          <article class="insight-card"><span>TOPIK 02</span><h3>Tantangan pengelolaan stok pada toko ritel kecil.</h3><p>Ulas pencatatan persediaan, risiko kehabisan stok, dan peluang penggunaan spreadsheet.</p></article>
+          <article class="insight-card"><span>TOPIK 03</span><h3>Perbedaan pengalaman belanja online dan offline.</h3><p>Bandingkan keunggulan kanal digital dan toko fisik dari sudut pandang pelanggan.</p></article>
+        </div>
+        <p class="note">Kembangkan topik menjadi artikel berdasarkan observasi atau sumber tepercaya. Jangan tampilkan contoh topik sebagai artikel yang sudah diterbitkan.</p>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="container two-col">
+        <div><p class="eyebrow">06 / PENGEMBANGAN DIRI</p><h2 class="section-title">Sertifikat & pelatihan.</h2></div>
+        <div class="certificate-box"><h3>[Nama pelatihan / sertifikat]</h3><p>[Penyelenggara] · [Tahun]</p><p class="muted">[Jelaskan kompetensi yang dipelajari dan tautan verifikasi jika tersedia.]</p><p class="note">Jika belum memiliki sertifikat, Anda dapat menyembunyikan bagian ini sampai ada konten yang relevan.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">07 / HUBUNGI SAYA</p><h2 class="section-title">Mari terhubung dan berkolaborasi.</h2><p class="lead">Saya terbuka untuk kesempatan magang, kolaborasi proyek, dan diskusi seputar bisnis ritel.</p>
+          <div class="contact-links"><a href="mailto:emailanda@example.com">✉ emailanda@example.com</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">↗ LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">↗ Instagram profesional</a></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Nama<input name="name" required placeholder="Nama Anda"></label>
+          <label>Email<input name="email" type="email" required placeholder="email@contoh.com"></label>
+          <label>Pesan<textarea name="message" rows="4" required placeholder="Tuliskan pesan Anda..."></textarea></label>
+          <button class="button primary" type="submit">Kirim melalui Email ↗</button>
+          <p class="form-note">Form ini membuka aplikasi email pengunjung. Untuk pengiriman langsung tanpa aplikasi email, hubungkan form ke backend atau layanan formulir.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> [Nama Lengkap] · Portofolio Manajemen Ritel</span><a href="#home">Kembali ke atas ↑</a></div></footer>
+
+  <dialog id="projectDialog" class="project-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Tutup">×</button>
+    <p class="eyebrow">DETAIL PROYEK</p><h2 id="dialogTitle"></h2><div id="dialogContent"></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
